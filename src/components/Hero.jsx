@@ -1,4 +1,3 @@
-import {amazon} from "../../public/images/amazon.png";
 
 const Hero = () => {
     return (
@@ -13,7 +12,7 @@ const Hero = () => {
                 <div className="shopping">
                     <p>Also Available On</p>
                     <div className="brand-icons">
-                        <img src={amazon} alt="amazon" />
+                        <img src="./src/assets/amazon.png" alt="amazon" />
                         <img src="./public/images/flipkart.png" alt="flipcar" />
                     </div>
                 </div>
